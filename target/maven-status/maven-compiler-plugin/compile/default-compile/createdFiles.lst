@@ -1,0 +1,4 @@
+com\apiSafeAlert\SafeAlert\model\Marker.class
+com\apiSafeAlert\SafeAlert\Controller\MarkController.class
+com\apiSafeAlert\SafeAlert\SafeAlertApplication.class
+com\apiSafeAlert\SafeAlert\Repository\MarkRepository.class
