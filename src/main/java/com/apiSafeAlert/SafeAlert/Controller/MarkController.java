@@ -3,6 +3,7 @@ package com.apiSafeAlert.SafeAlert.Controller;
 import com.apiSafeAlert.SafeAlert.Repository.MarkRepository;
 import com.apiSafeAlert.SafeAlert.model.Marker;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,8 +23,10 @@ public class MarkController {
     }
 
     @PostMapping
-    public Marker createMarker(@RequestBody Marker marker) {
-        return markerRepository.save(marker);
+    public ResponseEntity<Marker> createMarker(@RequestBody Marker marker) {
+
+        Marker savedMarker = markerRepository.save(marker);
+        return new ResponseEntity<>(savedMarker, HttpStatus.CREATED);
     }
 
     @GetMapping("/{id}")

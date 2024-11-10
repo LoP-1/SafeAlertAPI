@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7da00066-f28f-4d44-9510-50d186fc0969" name="Changes" comment="Agregada primera version">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7da00066-f28f-4d44-9510-50d186fc0969" name="Changes" comment="Agregada segunda version">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiSafeAlert/SafeAlert/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiSafeAlert/SafeAlert/Controller/MarkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apiSafeAlert/SafeAlert/Controller/MarkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiSafeAlert/SafeAlert/SafeAlertApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apiSafeAlert/SafeAlert/SafeAlertApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apiSafeAlert/SafeAlert/Controller/MarkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apiSafeAlert/SafeAlert/Controller/MarkController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apiSafeAlert/SafeAlert/SafeAlertApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apiSafeAlert/SafeAlert/SafeAlertApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731210967603</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Agregada segunda version">
+      <option name="closed" value="true" />
+      <created>1731211188351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731211188351</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Agregada primera version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregada primera version" />
+    <MESSAGE value="Agregada segunda version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregada segunda version" />
   </component>
 </project>
